@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+.imageSection {
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../../public/images/Rectangle\ 2.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 440px;
+  left: 0px;
+}
+.homeText {
+    position: absolute;
+    bottom: 6%;
+    left: 15%;
+  color: #ffffff;
+}
+.homeText h4 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+}
+.homeText h6 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 23px;
+}
+.mobJoinbtn{
+  display: none;
+  
+}
+.mobJoinbtn button{
+  background: none;
+  border: 0.2px solid #ffffff;
+  color:white;
+  border-radius: 4px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* 0000000000000000000000000000000000000000000 HomeContent 0000000000000000000000000000000000000000000 */
+.HomeContent {
+  position: absolute;
+  top: 512px;
+  min-width: 100%;
+  min-height: auto;
+  height: auto;
+  padding-top: 10px;
+}
+
+.main_div {
+  margin: auto;
+  width: 75%;
+  min-height: 50vh;
+}
+.HomeContentNav {
+  display: flex;
+  border-bottom: 0.2px solid rgb(230, 220, 220);
+  position: relative;
+}
+.mb-3 {
+  flex-basis: 60%;
+}
+.HomeContentNav .tab {
+  overflow: hidden;
+  border: 1px solid #fff;
+  background-color: #ffffff;
+}
+
+.HomeContentNav .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.HomeContentNav .tab button:hover {
+  border-top: 0.5px solid black;
+}
+
+.HomeContentNav .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.HomeContentButton {
+  position: absolute;
+  right: 1px;
+  top: 6px;
+  padding: 0px 0;
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.HomeContentButton button {
+  margin: 0px 10px;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+.filterdown {
+  display: none;
+  position: absolute;
+}
+.PostandDetail {
+  margin-top: 20px;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.PostSection {
+  flex-basis: 65%;
+  min-height: 50vh;
+}
+.DetailSection {
+  flex-basis: 35%;
+  min-height: 50vh;
+}
+.DetailSection .btn {
+  position: absolute;
+  border-radius: 50%;
+  left: 3px;
+  top: 2px;
+  border: none;
+  color: black;
+}
+.DetailSection .me-2 {
+  border-radius: 0px;
+  background: #fff;
+  padding-left: 50px;
+  border: none;
+  border-bottom: 0.5px solid rgb(221, 220, 220);
+  font-family: "IBM Plex Sans";
+  color: black;
+}
+.DetailSection .d-flex {
+  position: relative;
+  width: 80%;
+  height: 42px;
+  left: 20%;
+  top: 0px;
+  color: black;
+}
+#nav_block {
+  display: contents;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .main_div {
+    margin: auto;
+    width: 90%;
+    min-height: 50vh;
+  }
+}
+@media (min-width: 270px) and (max-width: 766px) {
+  .mobJoinbtn{
+    display: block;
+    position: absolute;
+  right: 10px ;
+  top: 10px;
+  }
+    .homeText {
+        position: absolute;
+        bottom: 6%;
+        left: 5%;
+      color: #ffffff;
+    }
+    .homeText h4 {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .homeText h6 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+  .filterdown {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    display: block;
+  }
+  .filterdown button {
+    color: rgb(0, 0, 0);
+    background-color: #f1f3f5;
+    border: none;
+    border-radius: 4px;
+  }
+  .navBlock {
+    display: none;
+  }
+  .main_div {
+    margin: auto;
+    width: 100%;
+    min-height: 50vh;
+  }
+  .HomeContentButton {
+    display: none;
+  }
+  .nav_block {
+    display: none;
+  }
+  .DetailSection {
+    display: none;
+  }
+  .PostSection {
+    flex-basis: 100%;
+    min-height: 50vh;
+  }
+}

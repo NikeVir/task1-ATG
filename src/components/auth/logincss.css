@@ -1,0 +1,117 @@
+.LoginDiv {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+.loginContainer {
+  position: relative;
+  width: 750px;
+  height: 553px;
+  margin: auto;
+  margin-top: 8%;
+}
+.loginContainer .closebtn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  right: -5px;
+  top: -5px;
+}
+.mainLogin {
+  border-radius: 8px;
+  margin-top: 30px;
+  position: absolute;
+  width: 736px;
+  height: 513px;
+  background: #ffffff;
+}
+.Loginhead {
+  border-radius: 8px;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  height: 50px;
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #008a45;
+  background: #efffff;
+}
+.loginSection{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 76px;
+
+}
+.loginForm{
+  flex-basis: 50%;
+}
+.loginForm input{
+  padding-left: 20px;
+  width: 90%;
+  height: 46px;
+  background: #F7F8FA;
+border: 1px solid #D9D9DB;
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+margin:0 2px ;
+line-height: 16px;
+}
+.loginImage{
+  flex-basis: 50%;
+}
+.createAccountbtn{
+  position: relative;
+width: 90%;
+height: 40px;
+color: #F7F8FA;
+border: none;
+background: #2F6CE5;
+border-radius: 20px;
+margin:10px 2px ;
+
+}
+.Signupbtn{
+  box-sizing: border-box;
+margin:3px 2px ;
+position: relative;
+width: 90%;
+height: 38px;
+background: #FFFFFF;
+border: 0.6px solid #D9D9DB;
+border-radius: 2px;
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+}
+.loginImg>p{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+
+color: #3D3D3D;
+}
+@media (max-width:768px) {
+
+  
+}

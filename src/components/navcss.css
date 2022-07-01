@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+.navbar{
+    width: 100%;
+    height: 72px;
+    position: relative;
+    background-color: white;
+}
+.navbar-brand{
+    
+    position: relative;
+    width: 162.57px;
+    height: 24px;
+    left: 72px;
+    top: -8px;
+    font-size: 25px;
+}
+.navbar-link .navbar-brand{
+    color:#27A365;
+}
+
+.navbar .btn{
+    position: absolute;
+    border-radius: 50%;
+    left: 3px;
+    top: 2px;
+    border: none;
+}
+.navbar .me-2{
+    padding-left: 50px;
+    border-radius: 21px;
+    background: rgb(242, 242, 242);
+    font-family: "IBM Plex Sans";
+}
+.navbar .d-flex{
+    position: relative;
+    width: 360px;
+    height: 42px;
+    left: 25%;
+    top: auto;
+}
+
+.navbar .me-auto {
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    right: 5%;
+    top: 15px;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: rgb(46, 46, 46);
+}
+.me-2 span{
+    color: #2F6CE5;
+}
+@media (min-width:270px) and (max-width:1027px){
+    .navbar .d-flex{
+        width: 0;
+        display: none;
+        position: absolute;
+    }
+    .navbar .me-2{
+        display: none;
+    }
+    .navbar .btn{
+        display: none;
+    }
+    
+}
+@media (min-width:270px) and (max-width:766px){
+    .navbar .me-auto {
+        display: none;
+    }
+    
+}
+@media (min-width:270px) and (max-width:520px) {
+
+    .navbar{    
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: white;
+    
+}
+.navbar-brand{
+    color:#27A365;
+    position: relative;
+    width: 162.57px;
+    height: 24px;
+    left: 42px;
+    top: -8px;
+    font-size: 22px;
+}
+}
